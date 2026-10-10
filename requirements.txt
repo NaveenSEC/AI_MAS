@@ -1,2 +1,0 @@
-anthropic>=1.13.0
-pytest>=8.0
