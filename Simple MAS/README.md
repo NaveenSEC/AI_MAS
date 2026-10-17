@@ -56,46 +56,46 @@ Requests use adaptive thinking and opt into server-side refusal fallbacks
 
 ## Development Hints
 
-# 1. Clone the repository
+### 1. Clone the repository
 ```
 git clone https://github.com/NaveenSEC/AI_MAS.git
 ```
 
-# 2. Enter the project folder
+### 2. Enter the project folder
 ```
 cd AI_MAS
 ```
 
-# 3. Fetch all remote branches and switch to the specific branch
+### 3. Fetch all remote branches and switch to the specific branch
 ```
 git fetch origin
 git checkout claude/optimistic-planck-fag80e
 ```
 
-# 4. Open the Project in VS Code
+### 4. Open the Project in VS Code
 
 ```
 code .
 ```
 
 (Edit Your Code inside VS Code)
-# 6. Check which files were modified
+### 6. Check which files were modified
 
 ```
 git status
 ```
 
-# 7. Stage your changes
+### 7. Stage your changes
 ```
 git add .
 ```
 
-# 8. Commit your changes with a descriptive message
+### 8. Commit your changes with a descriptive message
 ```
 git commit -m "Update code with my edits"
 ```
 
-# 9. Push the changes back to the exact same branch on GitHub
+### 9. Push the changes back to the exact same branch on GitHub
 ```
 git push origin claude/optimistic-planck-fag80e
 ```
@@ -108,7 +108,4 @@ git push origin claude/optimistic-planck-fag80e
 ```
 
 ## Author
-
-```
-Author: Naveenkumar Balasubramanian
-```
+###Author: Naveenkumar Balasubramanian
