@@ -1,5 +1,4 @@
 # AI_MAS — a simple multi-agent system
-# Author Naveenkumar Balasubramanian
 
 Four agents collaborate on a goal, coordinated by an orchestrator:
 
@@ -83,4 +82,10 @@ git commit -m "Update code with my edits"
 
 # 9. Push the changes back to the exact same branch on GitHub
 git push origin claude/optimistic-planck-fag80e
+```
+
+## Author
+
+```
+Author: Naveenkumar Balasubramanian
 ```
