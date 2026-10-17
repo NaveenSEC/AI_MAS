@@ -51,6 +51,13 @@ git push origin claude/optimistic-planck-fag80e
 2. TODO
 ```
 
+## General 
+### How to update the Tokens
+Generate the Tokens in Github: Settings -> Developer Settings -> Personal access tokens -> Tokens (classic) -> Generate new token (classic)
+
+```
+git remote set-url origin https://NaveenSEC:YOUR_TOKEN@github.com/NaveenSEC/Cryptography.git
+```
 ## Author
 Naveenkumar Balasubramanian \
 Cybersecurity Researcher
