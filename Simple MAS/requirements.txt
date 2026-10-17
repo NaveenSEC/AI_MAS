@@ -1,2 +1,9 @@
+# Python packages this project needs. Install them all with:
+#   pip install -r requirements.txt
+
+# Official Anthropic SDK, used by ClaudeLLM to call Claude.
+# (Not needed for --mock or --local, but installed so every mode works.)
 anthropic>=1.13.0
+
+# Test runner, used by `pytest` to run the tests in tests/.
 pytest>=8.0

@@ -1,5 +1,14 @@
+# Files and folders Git should ignore (never commit them).
+
+# Python's compiled bytecode caches, recreated automatically on every run.
 __pycache__/
 *.pyc
+
+# The virtual environment created by `python -m venv .venv` (installed packages).
 .venv/
+
+# pytest's cache of the last test run.
 .pytest_cache/
+
+# Local secrets such as API keys. Never commit these.
 .env
