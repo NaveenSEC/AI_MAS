@@ -108,4 +108,4 @@ git push origin claude/optimistic-planck-fag80e
 ```
 
 ## Author
-###Author: Naveenkumar Balasubramanian
+Naveenkumar Balasubramanian
