@@ -52,5 +52,5 @@ git push origin claude/optimistic-planck-fag80e
 ```
 
 ## Author
-Naveenkumar Balasubramanian
+Naveenkumar Balasubramanian \
 Cybersecurity Researcher
