@@ -84,6 +84,13 @@ git commit -m "Update code with my edits"
 git push origin claude/optimistic-planck-fag80e
 ```
 
+## Resources
+
+```
+1. Introduction to agent skills - https://anthropic.skilljar.com/introduction-to-agent-skills
+2. TODO
+```
+
 ## Author
 
 ```
