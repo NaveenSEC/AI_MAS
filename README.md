@@ -58,6 +58,32 @@ Generate the Tokens in Github: Settings -> Developer Settings -> Personal access
 ```
 git remote set-url origin https://NaveenSEC:YOUR_TOKEN@github.com/NaveenSEC/Cryptography.git
 ```
+## Trouble Shooting
+When HTTPS token authentication continues returning a 403 error despite updating the token, it usually means Git is overriding your token with cached credentials stored in the Windows Credential Manager or Git Credential Manager, or the token missing explicit write scope for that specific repository.
+
+Switching to SSH bypasses the HTTPS credential caching issue entirely and gives you a reliable, permanent setup.
+
+Solution 1: Switch to SSH (Fastest & Guaranteed Fix)
+Since you already verified your SSH host key earlier, switch the remote URL to SSH:
+
+### Set the remote URL to SSH:
+
+```
+git remote set-url origin git@github.com:NaveenSEC/Cryptography.git
+```
+
+### Test your SSH connection:
+
+```
+ssh -T git@github.com
+```
+
+### Push to GitHub:
+
+```
+git push -u origin main
+```
+
 ## Author
 Naveenkumar Balasubramanian \
 Cybersecurity Researcher
