@@ -1,7 +1,7 @@
 """A simple multi-agent system: planner -> researcher -> writer -> reviewer."""
 
 from .agents import Agent, PLANNER, RESEARCHER, WRITER, REVIEWER
-from .llm import ClaudeLLM, MockLLM
+from .llm import ClaudeLLM, MockLLM, OllamaLLM
 from .orchestrator import Orchestrator
 
 __all__ = [
@@ -12,5 +12,6 @@ __all__ = [
     "REVIEWER",
     "ClaudeLLM",
     "MockLLM",
+    "OllamaLLM",
     "Orchestrator",
 ]
