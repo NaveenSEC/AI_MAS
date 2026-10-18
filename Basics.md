@@ -4,6 +4,21 @@
 - **Jay Alammar**, "**The Illustrated Transformer**" (jalammar.github.io/illustrated-transformer). This is the best place to start. Almost every step is a diagram: how words become numbers, how attention works, and how the encoder and decoder fit together. University courses use it widely.
     - **Book Reference**
         - **Hands-On Large Language Models by Jay Alammar & Maarten Grootendorst**
+            - Understanding Language Models 
+                - An Introduction to LArge Language Models
+                - Tokens and Embeddings
+                - Looking Inside Karge LAnguage Models
+            - Using Pretrained Language Models
+                - Text Classification
+                - Text Clustering and Topic Modelling
+                - Prompt Engineering
+                - advanced Text Generation Techniques and Tools
+                - Semantic Search and Retrieval-Augmented Generation
+                - Multimodal Large Languange Models
+            - Training and Fine Tuninbg LArge Language Models
+                - Creating Text embedding Model
+                - fine-Tining Represenation Models for Classification
+                - Fine-Tuning Generation Models
 - Jay Alammar, "**The Illustrated GPT-2**" (jalammar.github.io/illustrated-gpt2). The follow-up shows how a ChatGPT-style model predicts the next word, one token at a time. This is the core of "how an LLM works."
 - **Transformer Explainer** (poloclub.github.io/transformer-explainer, Georgia Tech, arXiv:2408.04619). You type a sentence and watch a real GPT-2 process it live in your browser. You can see the numbers moving through the model.
 3- **Blue1Brown, "But what is a GPT?"** and the attention video that follows it (YouTube). These are animated and very intuitive, about 30 minutes each.
