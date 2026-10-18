@@ -47,12 +47,12 @@
 - Referemce Points:
     - Collaborative task-solving leads to **explosive malicious propagation**
     - LLM-based multi-agent architectures, agents communicate across high-connectivity - complex interaction graphs (such as star, mesh, or fully connected topologies
-    - Key Components of the Framework\
+    - **Key Components of the Framework**\
     Chain-Type Secure Path Reconstruction Method (C-SPRM)\
     Spatio-Temporal Attack Surface (STAS) Minimization\
     Graph-to-Sequence Path Decomposition via Reinforcement Learning (G2S-PDR)\
     Adaptive Topology Virtualization\
-    - Key Benefits\
+    - **Key Benefits**\
     Reduced Blast Radius\
     Exponentially Higher Attack Difficulty\
     Controllable Overhead\
