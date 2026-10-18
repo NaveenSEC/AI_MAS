@@ -58,6 +58,13 @@ Generate the Tokens in Github: Settings -> Developer Settings -> Personal access
 ```
 git remote set-url origin https://NaveenSEC:YOUR_TOKEN@github.com/NaveenSEC/Cryptography.git
 ```
+
+### How to check SSH connection
+```
+ssh -T git@github.com
+```
+You should be seeing - Hi NaveenSEC! You've successfully authenticated, but GitHub does not provide shell access.
+
 ## Trouble Shooting
 When HTTPS token authentication continues returning a 403 error despite updating the token, it usually means Git is overriding your token with cached credentials stored in the Windows Credential Manager or Git Credential Manager, or the token missing explicit write scope for that specific repository.
 

@@ -1,6 +1,10 @@
 ## Research Papers & Resources
 
-### LLM - Visaul Explainers
+### Python Basics
+- Learn Python - https://www.learnpython.org/
+- Coding Plataform - https://colab.research.google.com/
+
+### LLM - Visual Explainers
 - **Jay Alammar**, "**The Illustrated Transformer**" (jalammar.github.io/illustrated-transformer). This is the best place to start. Almost every step is a diagram: how words become numbers, how attention works, and how the encoder and decoder fit together. University courses use it widely.
     - **Book Reference**
         - **Hands-On Large Language Models by Jay Alammar & Maarten Grootendorst**
