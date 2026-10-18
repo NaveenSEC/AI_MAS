@@ -4,8 +4,8 @@
 - University: Johns Hopkins University (and Nanyang Technological University)
 - Journal: 
 - Gitrepo: Not publicly released (arXiv:2609.00595)
-- Reference Points:
-    -TODO
+- Reference Points: 
+    - TODO
 
 ### On the Resilience of LLM-Based Multi-Agent Collaboration with Faulty Agents
 - Authors: Jen-tse Huang, Jiaxu Zhou, Tailin Jin, Xuhui Zhou, Zixi Chen, Wenxuan Wang, Youliang Yuan, Michael R. Lyu, Maarten Sap
@@ -20,7 +20,7 @@
 - University: Xi'an University of Technology / Henan Polytechnic University (associated institutions for this author group)
 - Journal: 
 - Gitrepo: Not publicly released (IEEE Transactions on Industrial Cyber-Physical Systems)
-- Referemce Points:
+- Reference Points:
     - TODO
 
 ### Template: G-Safeguard: A Topology-Guided Security Lens and Treatment on LLM-based Multi-agent Systems
@@ -28,7 +28,7 @@
 - University: University of Science and Technology of China (USTC), Tongji University, Wuhan University
 - Journal: 
 - Gitrepo: https://github.com/wslong20/G-safeguard
-- Referemce Points:
+- Reference Points:
     - TODO
 
 ### Securing Multi-Agent Systems Against Corruptions via Node Contribution Backpropagation (ICML 2026)
@@ -47,21 +47,21 @@
 - Referemce Points:
     - Collaborative task-solving leads to **explosive malicious propagation**
     - LLM-based multi-agent architectures, agents communicate across high-connectivity - complex interaction graphs (such as star, mesh, or fully connected topologies
-    - Key Components of the Framework
-    Chain-Type Secure Path Reconstruction Method (C-SPRM)
-    Spatio-Temporal Attack Surface (STAS) Minimization
-    Graph-to-Sequence Path Decomposition via Reinforcement Learning (G2S-PDR)
-    Adaptive Topology Virtualization
-    - Key Benefits
-    Reduced Blast Radius
-    Exponentially Higher Attack Difficulty
-    Controllable Overhead
+    - Key Components of the Framework\
+    Chain-Type Secure Path Reconstruction Method (C-SPRM)\
+    Spatio-Temporal Attack Surface (STAS) Minimization\
+    Graph-to-Sequence Path Decomposition via Reinforcement Learning (G2S-PDR)\
+    Adaptive Topology Virtualization\
+    - Key Benefits\
+    Reduced Blast Radius\
+    Exponentially Higher Attack Difficulty\
+    Controllable Overhead\
 
 ### Template: Title...
 - Authors:
 - University:
 - Gitrepo:
-- Referemce Points:
+- Reference Points:
     - TODO
 
 ### AI-Attacks
@@ -71,5 +71,5 @@
 - Tool Attack
 
 ### Others 
-- Lateral threat Modement
+- Lateral threat Movement
 - Hallucinations
