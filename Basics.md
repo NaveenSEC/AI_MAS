@@ -64,6 +64,10 @@
 - Reference Points:
     - TODO
 
+### Summary
+- Backward Propogation Detection (BPD)
+- Topology Linearation -> To mitigate malicipus propagation via path decomposition
+
 ### AI-Attacks
 - Prompt Injection
 - Data Poisioning
