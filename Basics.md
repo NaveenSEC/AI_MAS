@@ -10,7 +10,7 @@
 ### On the Resilience of LLM-Based Multi-Agent Collaboration with Faulty Agents
 - Authors: Jen-tse Huang, Jiaxu Zhou, Tailin Jin, Xuhui Zhou, Zixi Chen, Wenxuan Wang, Youliang Yuan, Michael R. Lyu, Maarten Sap
 - University: Chinese University of Hong Kong (CUHK), Carnegie Mellon University, Tsinghua University, Peking University, Renmin University of China
-- Journal: 
+- Journal:
 - Reference Points: https://github.com/CUHK-ARISE/MAS-Resilience
     - 
 
