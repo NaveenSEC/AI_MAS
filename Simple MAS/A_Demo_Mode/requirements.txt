@@ -1,0 +1,6 @@
+# Python packages this project needs. Install them all with:
+#   pip install -r requirements.txt
+# Demo mode itself uses only Python's standard library.
+
+# Test runner, used by `pytest` to run the tests in tests/.
+pytest>=8.0

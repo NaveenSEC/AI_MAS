@@ -1,4 +1,4 @@
-# Simple MAS — a simple multi-agent system
+# Simple MAS: a simple multi-agent system
 
 Four agents collaborate on a goal, coordinated by an orchestrator:
 
@@ -15,36 +15,32 @@ goal ─▶ Planner ─▶ Researcher ─▶ Writer ─▶ Reviewer ─┬─▶
 | Writer     | Writes (and revises) the answer                         |
 | Reviewer   | Approves the draft or sends back actionable feedback    |
 
-Agents can run on three backends:
+## Three projects, one for each way of running it
 
-| Backend | Flag | Needs |
-|---------|------|-------|
-| Claude (`claude-opus-5-5`) via the Anthropic API | *(default)* | An Anthropic API key; billed per use |
-| Open-weights model on your own machine via [Ollama](https://ollama.com) | `--local` | Ollama installed and a model downloaded; free, works offline |
-| Canned answers for a quick demo | `--mock` | Nothing |
+The agents and orchestrator are the same in all three. Only the *backend*,
+the thing that produces the text, is different.
 
-## Getting started
+| Project | Backend | Needs | Cost |
+|---------|---------|-------|------|
+| [**A_Demo_Mode**](A_Demo_Mode) | Canned answers | Nothing | Free |
+| [**B_Claude_API**](B_Claude_API) | Claude (`claude-opus-5-5`) via the Anthropic API | Anthropic API key | Billed per use |
+| [**C_Local_Model**](C_Local_Model) | Open-weights model on your computer via [Ollama](https://ollama.com) | Ollama + a downloaded model | Free, works offline |
 
-**See [HOW_TO_RUN.md](HOW_TO_RUN.md)** for step-by-step setup, all three ways to
-run it, command options and troubleshooting.
+Each project is self-contained, with its own `main.py`, `requirements.txt`,
+tests and README. **See [HOW_TO_RUN.md](HOW_TO_RUN.md)** to get started.
 
-Quick try, once installed:
-
-```bash
-python main.py --mock "Explain tides"
-```
-
-## Layout
+## Layout (same in every project)
 
 ```
-mas/
-  llm.py           # ClaudeLLM (Anthropic API), OllamaLLM (local), MockLLM (canned)
-  agents.py        # Agent roles / system prompts
-  orchestrator.py  # Plan → research → write → review/revise loop
-main.py            # CLI entry point
-tests/             # Pipeline and backend tests (no API key or model needed)
-HOW_TO_RUN.md      # Setup and run guide
+<project>/
+  mas/
+    llm.py           # the backend (this is the only file that differs between projects)
+    agents.py        # the four agent roles (system prompts)
+    orchestrator.py  # plan → research → write → review/revise loop
+  main.py            # command-line entry point
+  tests/             # automated tests (no API key or model needed)
+  requirements.txt
+  README.md
 ```
 
-Claude requests use adaptive thinking and opt into server-side refusal fallbacks
-(`fallbacks="default"`), so a declined request is retried on a recommended model.
+Every line of code has a comment explaining what it does.

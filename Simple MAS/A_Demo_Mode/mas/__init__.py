@@ -1,4 +1,4 @@
-"""A simple multi-agent system: planner -> researcher -> writer -> reviewer.
+"""A simple multi-agent system (Demo mode): planner -> researcher -> writer -> reviewer.
 
 This file turns the `mas` folder into a Python *package*. Python runs it the
 first time anyone writes `import mas` or `from mas import ...`. Its only job is
@@ -11,11 +11,8 @@ write the short `from mas import Orchestrator` instead of the longer
 # The leading dot in ".agents" means "the agents.py file in this same folder".
 from .agents import Agent, PLANNER, RESEARCHER, WRITER, REVIEWER
 
-# Bring in the three LLM "backends" (the things that actually produce text) from llm.py:
-#   ClaudeLLM -> Claude through the Anthropic API (needs an API key, costs money)
-#   MockLLM   -> canned answers, for demos and tests (free, no internet)
-#   OllamaLLM -> an open-weights model running on your own computer (free, offline)
-from .llm import ClaudeLLM, MockLLM, OllamaLLM
+# Bring in the Demo-mode backend: canned answers, no model needed.
+from .llm import MockLLM
 
 # Bring in the Orchestrator, the "manager" that runs the agents in order.
 from .orchestrator import Orchestrator
@@ -28,8 +25,6 @@ __all__ = [
     "RESEARCHER",  # agent that lists key facts for the plan
     "WRITER",  # agent that writes (and revises) the answer
     "REVIEWER",  # agent that approves or asks for a revision
-    "ClaudeLLM",  # backend: Claude via the Anthropic API
     "MockLLM",  # backend: canned answers
-    "OllamaLLM",  # backend: local model via Ollama
     "Orchestrator",  # runs the whole plan -> research -> write -> review pipeline
 ]
