@@ -1,0 +1,9 @@
+# Python packages this project needs. Install them all with:
+#   pip install -r requirements.txt
+
+# Arrays and matrix maths. The neural networks are written with numpy only,
+# so you can read every step of backpropagation (no deep-learning framework).
+numpy>=1.24
+
+# Test runner, used by `pytest` to run the tests in tests/.
+pytest>=8.0
