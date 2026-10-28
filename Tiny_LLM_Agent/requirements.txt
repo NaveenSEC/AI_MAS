@@ -1,0 +1,9 @@
+# Python packages this project needs. Install them all with:
+#   pip install -r requirements.txt
+
+# Arrays and matrix maths. The language model is written with numpy only,
+# so every weight and every layer's calculation is visible (no PyTorch needed).
+numpy>=1.24
+
+# Test runner, used by `pytest` to run the tests in tests/.
+pytest>=8.0
